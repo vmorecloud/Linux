@@ -1,0 +1,19 @@
+openSUSE Myrlyn Package Manager Reaches Version 1.0
+
+Myrlyn 1.0 is out – a major milestone for this modern Qt-based package manager frontend for openSUSE!
+Built on the powerful libzypp backend (same as Zypper), Myrlyn aims to provide a clean, standalone GUI alternative to YaST's software management – especially relevant as it is set to replace YaST's role in openSUSE Leap 16.0 and Tumbleweed.
+Key highlights in 1.0:
+
+Community repositories support for openSUSE Leap 16.0 – now you can finally browse, enable, and manage packages from community repos (like Packman) directly in the UI.
+More configurability for privileged operations: define environment variables for myrlyn-sudo in your per-user config at ~/.config/openSUSE/myrlyn-sudo.conf.
+Better visibility into the solver: after actions like Package Update or Dist-Upgrade, the dependency resolver mode is now clearly displayed in the main window until you accept changes.
+Search improvements:
+Toggle default "Auto" search between "Starts With" and "Contains" right in the interface.
+New ability to search inside RPM Recommends – great for understanding why certain packages get pulled in.
+
+Huge upgrade to the zypp history browser:
+Reworked timeline with hierarchical year → month → day structure.
+Events grouped by transaction (so you can clearly see individual zypper dup, install/remove batches, or Myrlyn operations).
+Expanded filtering: by package name/pattern, repository, removal events only, repo additions/removals/URL changes, etc.
+
+Read More about Linux on https://www.vmorecloud.com
